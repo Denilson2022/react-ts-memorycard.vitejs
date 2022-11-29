@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.cdnfonts.com/css/arcade-classic');
+@import url('https://fonts.cdnfonts.com/css/matias-2');
+
+
+
+.grid
+{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 0.1rem;
+}
+.text
+{
+  padding: 1rem 0 ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo
+{
+  font-family: 'Rubik Microbe', cursive;
+  color: rgb(66, 38, 0);
+  font-size: 10rem;
+  text-shadow: 2px 2px 0 #9c9a00, 2px -2px 0 #96a700, -2px 2px 0 #ffffff, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+  text-transform: none;
+}
+.subLogo
+{
+  display: flex;
+  flex-direction: row-reverse;
+  font-family: 'ArcadeClassic', sans-serif;
+  font-size: 1.9rem;
+  text-transform: uppercase;
+  width: 72vw;
+  margin-top: -2.5rem;
+  color: rgb(0, 0, 0);
+
+}
+.sign
+{
+  margin: -2.8rem 0 2rem 0;
+  font-family: 'Matias', sans-serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+  word-spacing: -20px;
+  font-weight: lighter;
+  text-decoration: underline 2px rgb(139, 0, 0);
+  text-shadow: #ffffffcc 1px 1px;
+  transform: rotate(-10deg);
+  width: auto;
+  display: flex;
+  color: #000000;
+}
+
+
+  h1
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p
+{
+  color: rgb(0, 0, 0);
+  width: auto;
+  display: flex;
+  margin: auto;
+}
+h2
+{
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  margin: 0 2rem;
+  background-color: rgb(255, 217, 0);
+  border-radius: 5rem;
+  padding: 0 1rem;
+}
+button
+{
+  margin-left: 3rem;
+  border-radius: 0.5rem;
+  padding: 0 20px;
+  background-color: rgb(161, 40, 40);
+  color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.3);
+  transition: 0.3s all ease-in-out;
+}
+button:hover
+{
+  background-color: rgb(255, 217, 0);
+  color: rgb(0, 0, 0);
+}

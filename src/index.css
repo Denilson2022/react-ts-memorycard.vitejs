@@ -1,0 +1,28 @@
+:root
+{
+  --color-primary: #13141f;
+  --color-secundary: darkgoldenrod;
+  --color-text-ligth: #fff;
+  --color-text-dark: rgb(0, 0, 0);
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html
+{
+  font-size: 62,5%;
+}
+
+body
+{
+  height: 100vh;
+  font-size: 1.6rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #ffffff;
+  background: linear-gradient(180deg, rgba(99,204,0,1) 0%, rgb(255, 255, 255) 100%);
+}
