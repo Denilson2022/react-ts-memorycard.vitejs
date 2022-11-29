@@ -21,7 +21,7 @@
 {
   font-family: 'Rubik Microbe', cursive;
   color: rgb(66, 38, 0);
-  font-size: 10rem;
+  font-size: 5rem;
   text-shadow: 2px 2px 0 #9c9a00, 2px -2px 0 #96a700, -2px 2px 0 #ffffff, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
   text-transform: none;
 }
@@ -30,10 +30,10 @@
   display: flex;
   flex-direction: row-reverse;
   font-family: 'ArcadeClassic', sans-serif;
-  font-size: 1.9rem;
+  font-size: 1rem;
   text-transform: uppercase;
-  width: 72vw;
-  margin-top: -2.5rem;
+  width: 35vw;
+  margin-top: 0rem;
   color: rgb(0, 0, 0);
 
 }
@@ -41,7 +41,7 @@
 {
   margin: -2.8rem 0 2rem 0;
   font-family: 'Matias', sans-serif;
-  font-size: 50px;
+  font-size: 30px;
   letter-spacing: 2px;
   word-spacing: -20px;
   font-weight: lighter;
