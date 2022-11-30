@@ -25,6 +25,6 @@ body
   width: auto;
   font-size: 1.6rem;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  background-color: #ffffff;
   background:  rgb(247, 222, 0);
+  background: linear-gradient(0deg, rgba(34,49,195,0) 0%, rgba(253,252,45,1) 100%);
 }
