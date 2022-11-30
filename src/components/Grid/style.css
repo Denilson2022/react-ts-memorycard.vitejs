@@ -4,9 +4,12 @@
   display: grid ;
   grid-template-columns: repeat(4, 1fr);
   gap: 0.5vw;
+  padding: 1vw;
+  border-radius: 2vw;
   width: 95vw;
   min-height: 20vh;
   margin:auto;
+  background: white;
 }
 .header
 {
