@@ -21,7 +21,7 @@
 {
   font-family: 'Rubik Microbe', cursive;
   color: rgb(66, 38, 0);
-  font-size: 5rem;
+  font-size: 2rem;
   text-shadow: 2px 2px 0 #9c9a00, 2px -2px 0 #96a700, -2px 2px 0 #ffffff, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
   text-transform: none;
 }
@@ -39,9 +39,9 @@
 }
 .sign
 {
-  margin: -2.8rem 0 2rem 0;
+  margin: -1.5rem 0 2rem 0;
   font-family: 'Matias', sans-serif;
-  font-size: 30px;
+  font-size: 1rem;
   letter-spacing: 2px;
   word-spacing: -20px;
   font-weight: lighter;
