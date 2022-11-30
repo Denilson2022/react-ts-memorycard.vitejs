@@ -2,7 +2,7 @@
 .card__content
 {
   position: relative;
-  width: 90%;
+  width: 80%;
   margin: auto;
   aspect-ratio: 1/1;
   transform-style: preserve-3d;
@@ -24,19 +24,18 @@
   align-items: center;
   justify-content: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 5rem;
   cursor: pointer;
 }
 .card__face--front
 {
   background: var(--color-primary);
   color: rgb(255, 145, 0);
-  font-size: 2rem;
+  font-size: 9vw;
 }
 .card__face--back
 {
-  background: rgb(128, 98, 0);
-  color: var(--color-text-dark);
+  background: rgb(158,158,0);
+  background: linear-gradient(40deg, rgb(255, 255, 1) 0%, rgb(211, 204, 1) 7%, rgb(29, 0, 0) 100%);  color: var(--color-text-dark);
   transform: rotateY(180deg);
 }
 .card__face--back img

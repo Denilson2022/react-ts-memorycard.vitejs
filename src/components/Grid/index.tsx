@@ -84,8 +84,20 @@ export function Grid({cards}: GridProps){
 
   return (
   <>
-  <div className="text"><h1><span className="logo">Nephews<span className="subLogo">Memory Game</span></span><span className="sign">by Denilson!</span><button onClick={()=> handleReset()}>Novo Jogo</button></h1>
-  <p>Tentativas: <h2>{moves}</h2>  Combinações:<h2>{matches}</h2>  </p>
+  <div className="header">
+    <div className="text">
+      <h1>
+        <span className="logo">Nephews<span className="subLogo">Memory Game</span></span>
+      </h1>
+      <div className="pontos">
+  <p>Tentativas:<h2>{moves}</h2></p>
+  <p>Combinações:<h2>{matches}</h2></p>
+    </div>
+  <div className="points">
+  <button onClick={()=> handleReset()}>Novo Jogo</button>
+  </div>
+  </div>
+
   </div>
   <div className="grid">
     {stateCards.map((card) =>{

@@ -6,82 +6,83 @@
 
 .grid
 {
-  display: grid;
+  display: grid ;
   grid-template-columns: repeat(4, 1fr);
-  gap: 0.2rem;
+  gap: 0.5vw;
+  width: 95vw;
+  min-height: 20vh;
+  margin:auto;
+}
+.header
+{
+ width: 95vw;
+ margin: auto;
+ height: 20vh;
 }
 .text
 {
-  flex-direction: column;
-  padding: 0rem 0;
-  display: flex;
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr 1fr;
+  gap: 2vw;
 }
 .logo
 {
   font-family: 'Rubik Microbe', cursive;
-  color: rgb(66, 38, 0);
-  font-size: 2rem;
-  text-shadow: 0.125rem 0.125rem 0 #9c9a00, 0.125rem -0.125rem 0 #96a700, -0.125rem 0.125rem 0 #ffffff, -0.125rem 0.125rem 0 #4074b5, 0.125rem 0 0 #4074b5, 0rem 0.125rem 0 #4074b5, -0.125rem 0rem 0 #4074b5, 0rem -0.125rem 0 #4074b5;
-  text-transform: none;
+  color: rgb(17, 0, 49);
+  font-size: 6vw;
 }
 .subLogo
 {
   display: flex;
   flex-direction: row-reverse;
-  margin: -0.5rem 0 0.5rem;
   font-family: 'ArcadeClassic', sans-serif;
-  font-size: 0.9rem;
+  font-size: 3vw;
+  margin-top: -2vw;
   text-transform: uppercase;
-  color: rgb(0, 0, 0);
+  color: rgb(187, 0, 0);
   text-shadow: none;
-  z-index: 1;
 }
-.sign
+h1
 {
-  margin: auto;
-  font-family: 'Matias', sans-serif;
-  font-size: 1.5rem;
-  letter-spacing: 0.125rem;
-  word-spacing: -0.625rem;
-  font-weight: lighter;
-  text-decoration: underline 0.125rem rgb(139, 0, 0);
-  text-shadow: #ffffffcc 0.063rem 0.063rem;
-  transform: rotate(-10deg);
-  color: #000000;
-}
-
-  h1
-{
-  display: flex;
+  display: inline-grid;
   align-items: center;
 }
+.pontos
+{
+  display: inline-grid;
+}
+.points
+{
+  margin: auto;
+}
+
 p
 {
-  color: rgb(0, 0, 0);
   display: flex;
-  justify-content: space-between;
-  width: 80vw;
   margin: auto;
-  font-size: 0.9rem;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  font-size: 3vw;
+  font-weight: 100;
 }
 h2
 {
-  font-size: 0.9rem;
+  font-size: 3vw;
   color: rgb(0, 0, 0);
-  background-color: rgb(255, 217, 0);
+  background-color: rgb(255, 255, 255);
   border-radius: 5rem;
   padding: 0 0.5rem;
-  margin-left: -40vw;
-  justify-content: center;
-  display: flex;
+  margin-left: 2vh;
 }
 button
 {
   display: flex;
-  margin-left: auto;
-  border-radius: 0.5rem;
-  padding: 0 0.5rem;
-  background-color: rgb(161, 40, 40);
+  justify-content: center;
+  align-items: center;
+  padding: 1.5vw 3vw;
+  font-size:2vw;
+  border-radius: 2vw;
+  background-color: rgb(187, 0, 0);
   color: rgb(255, 255, 255);
   box-shadow: 0.125rem 0.125rem 0.125rem rgb(0, 0, 0, 0.3);
   transition: 0.3s all ease-in-out;
