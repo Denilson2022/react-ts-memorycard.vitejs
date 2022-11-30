@@ -28,14 +28,15 @@
 }
 .card__face--front
 {
-  background: var(--color-primary);
+  background: black;
   color: rgb(255, 145, 0);
   font-size: 9vw;
 }
 .card__face--back
 {
   background: rgb(158,158,0);
-  background: linear-gradient(40deg, rgb(255, 255, 1) 0%, rgb(211, 204, 1) 7%, rgb(29, 0, 0) 100%);  color: var(--color-text-dark);
+  background: rgb(255, 145, 0);
+  color: rgb(255, 145, 0);
   transform: rotateY(180deg);
 }
 .card__face--back img
