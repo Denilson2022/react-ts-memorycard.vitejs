@@ -63,7 +63,7 @@
 p
 {
   color: rgb(0, 0, 0);
-  width: auto;
+  width: 100vw;
   display: flex;
   margin: auto;
 }
