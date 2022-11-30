@@ -63,13 +63,14 @@
 p
 {
   color: rgb(0, 0, 0);
-  width: 100vw;
+  width: 62vw;
   display: flex;
   margin: auto;
+  font-size: 1rem;
 }
 h2
 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: rgb(0, 0, 0);
   margin: 0 2rem;
   background-color: rgb(255, 217, 0);
@@ -78,7 +79,8 @@ h2
 }
 button
 {
-  margin-left: 3rem;
+  display: flex;
+  margin-left: auto;
   border-radius: 0.5rem;
   padding: 0 20px;
   background-color: rgb(161, 40, 40);
