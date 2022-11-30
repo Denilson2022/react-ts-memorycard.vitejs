@@ -2,7 +2,8 @@
 .card__content
 {
   position: relative;
-  width: 100%;
+  width: 90%;
+  margin: auto;
   aspect-ratio: 1/1;
   transform-style: preserve-3d;
   transition: transform 300ms ease-in-out;
@@ -30,10 +31,16 @@
 {
   background: var(--color-primary);
   color: rgb(255, 145, 0);
+  font-size: 2rem;
 }
 .card__face--back
 {
   background: rgb(128, 98, 0);
   color: var(--color-text-dark);
   transform: rotateY(180deg);
+}
+.card__face--back img
+{
+  width: 18vw;
+  aspect-ratio: 1/1;
 }
